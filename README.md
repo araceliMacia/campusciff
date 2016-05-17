@@ -17,4 +17,10 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inic
   **echo "Generando fichero" > README.md**
    
    Procedo a modificarlo con una aplicación para editar,  y estoy utilizando el editor online : https://jbt.github.io/markdown-editor,  para visualizar lo que escribo en formado markdown, de forma que pueda asegurar el resultado una vez subido dicho fichero al repositorio a la web.
-   
+
+- Subir los cambios al repositorio remoto.
+	1. Hago un commit, realizando la accion de añadir al area de stage en un solo paso y lo subo al repositorio remoto.
+	
+  **git commit -a -m "commit inicial"**
+  
+  **git push**
