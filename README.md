@@ -9,10 +9,13 @@
   Desde la web de GitHub y una vez logada con  [mi usuario](https://github.com/araceliMacia/campusciff), realizo los pasos para crear el repositorio
 
 ![CreoRepositorio1](/images/CreoRepositorio1.png)
-![CreoRepositorio2](/images/CreoRepositorio2.png)
+
 ![CreoRepositorio3](/images/CreoRepositorio3.png)
 
 Una vez creado el repositorio remoto, copio la cadena SSH del repositorio remoto.
+
+![CreoRepositorio4](/images/CreoRepositorio4.png)
+
 Desde el terminal ejecuto:
 
   **git clone git@github.com:araceliMacia/campusciff.git** 
@@ -40,6 +43,7 @@ Desde el terminal ejecuto:
    **git push**
 
 A continuación desde la web, veo como esta quedando el fichero README.md ( es una versión anterior a la que estas viendo ahora)
+
 ![PrimerReadme](/images/ReadPrimero.png)
 
 
@@ -68,6 +72,7 @@ A continuación desde la web, veo como esta quedando el fichero README.md ( es u
    He generado un fichero **.gitignore** con el siguiente contenido:
         
    privado.text
+
    /privada
 	
    Ahora al ejecutar git status obtengo lo siguiente:
@@ -122,7 +127,7 @@ Ahora al realizado un git list, ya veo la etiqueta del ultimo commit.
 
 # Subir el tag v0.1
 
-*Subir los cambios al repositorio remoto.
+* Subir los cambios al repositorio remoto.
 
 Una vez que ya esta todo "commitado" lo subo al repositorio local con:
 
@@ -145,6 +150,7 @@ Una vez que ya esta todo "commitado" lo subo al repositorio local con:
    He seleccionado la opcion de mensaje de texto a mi número de móvil, y también he guardado los códigos de recuperación.
 
 1. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+
   Esto ya lo hice en la clase, y lo tengo correctamente configurado.
 
 # Uso social de GitHub
@@ -155,7 +161,9 @@ Una vez que ya esta todo "commitado" lo subo al repositorio local con:
 
 En las siguientes imagenes muestro que me estoy siguiendo a varios compañeros, asi como varios compañeros a mi. 
 Tambien se puede ver que he añadido una entralla a los repositorios de algunos compañeros.
-![SiguiendoCompañeros](/images/SiguiendoCompañeros.png)
+
+![SiguiendoCompaneros](/images/SiguiendoCompaneros.png)
+
 ![PuntuandoEstrellas2](/images/PuntuandoEstrellas2.png)
 
 # Crear una tabla
@@ -174,5 +182,6 @@ Crear una tabla de este estilo en el fichero README.md con la información de v
 
 A continuación muestro los pantallazos de lo que he hecho para incluir a Adolfo Sanz como colaborador del repositorio.
 ![NuevoColaborador](/images/NuevoColaborador.png)
+
 ![NuevoColaborador2](/images/NuevoColaborador2.png)
 
