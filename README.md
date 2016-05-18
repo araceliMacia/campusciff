@@ -24,3 +24,39 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inic
   **git commit -a -m "commit inicial"**
   
   **git push**
+
+..............................
+
+  - Ignorar archivos
+  	* Crear en el repositorio local un fichero llamado privado.txt
+  	
+  		**echo "Inicial" > privado.text**
+           
+    * Crear en el repositorio local una carpeta llamada privada.
+  
+         **mkdir privada**
+         dentro de la carpet privada genero otro fichero, de modo que al realizar **git status** veo esto:
+         
+         	On branch master
+            Your branch is up-to-date with 'origin/master'.
+            Untracked files:
+              (use "git add <file>..." to include in what will be committed)
+
+                privada/
+                privado.text
+    
+    * Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
+    
+      He generado un fichero **.gitignore** con el siguiente contenido:
+        
+        	privado.text
+		 	/privada
+	
+      Ahora al ejecutar git status me dice lo siguiente:
+      
+          On branch master
+			Your branch is up-to-date with 'origin/master'.
+        	Untracked files:
+          (use "git add <file>..." to include in what will be committed)	
+            .gitignore
+            nothing added to commit but untracked files present (use "git add" to track)
