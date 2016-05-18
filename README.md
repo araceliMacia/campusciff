@@ -2,6 +2,10 @@
 # Practica 1 :  
 *Por: Araceli Macía Barrado*
 
+![UrlCorta](https://github.com/araceliMacia/campusciff/images/CreoRepositorio1.png)
+
+![urlLarga](
+https://github.com/araceliMacia/campusciff/blob/master/images/CreoRepositorio1.png)
 
 # Repositorio campusciff
 
