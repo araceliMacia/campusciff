@@ -104,5 +104,18 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inic
 	* Subir los cambios al repositorio remoto.
 
 	Una vez que ya esta todo "commitado" lo subo al repositorio local con:
-    
+   
 	**git push**
+
+*****************************************
+# Crear una tabla
+	Crear una tabla de este estilo en el fichero README.md con la información de varios de tus compañeros de clase.
+
+|Nombre Compañero   | Enlace GitHun   |
+|---|---|
+|Ainhoa Calvo   |[Ainhoa](https://github.com/AinhoaCE)    |
+| Anna Lawrenc  |[Anna](https://github.com/annalawrenc)    |
+| Enrique Serrano Muñoz|[Enrique](https://github.com/eserranom)    |
+| Juan Antonio García Cuevas|[Juan Antonio](https://github.com/juangarciaciff)|
+
+
