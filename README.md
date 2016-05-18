@@ -25,7 +25,7 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inic
   
   **git push**
 
-..............................
+....................................
 
   - Ignorar archivos
   	* Crear en el repositorio local un fichero llamado privado.txt
@@ -60,3 +60,49 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inic
           (use "git add <file>..." to include in what will be committed)	
             .gitignore
             nothing added to commit but untracked files present (use "git add" to track)
+
+....................................
+- Añadir fichero 1.txt
+	* Añadir fichero 1.txt al repositorio local
+		 Genero el fichero:
+		 echo "fichero1.txt " > fichero1.txt
+         
+		 Lo añado a la area de staging.
+		 
+         **git add fichero1.txt**
+         
+         lo subo al repositorio local
+         
+         **git commit -m "Vers. con fichero1.txt"**
+
+		 Ahora al ejecutar un git list obtengo lo siguiente:
+         
+		 	* 3649d55 (HEAD -> master) Vers. con fichero1.txt
+			* dcae639 (origin/master) Vers. ignorando archivos
+			* e81c831 Ver con gigignore
+			* 0b69fa9 Fin Parte 1 Pract 1
+			* 092a819 commit inicial
+			* 55bb5dd Subo fichero README.md
+		
+		Aqui vemos los commits con las comentarios que he ido subiendo al repositorio local.
+
+- Crear el tag v0.1
+	* Crear un tag v0.1.
+	
+		**git tag v0.1**
+        
+		ahora al realizado un git list, ya veo la etiqueta del ultimo commit.
+
+          * 3649d55 (HEAD -> master, tag: v0.1) Vers. con fichero1.txt
+          * dcae639 (origin/master) Vers. ignorando archivos
+          * e81c831 Ver con gigignore
+          * 0b69fa9 Fin Parte 1 Pract 1
+          * 092a819 commit inicial
+          * 55bb5dd Subo fichero README.md
+
+- Subir el tag v0.1
+	* Subir los cambios al repositorio remoto.
+
+	Una vez que ya esta todo "commitado" lo subo al repositorio local con:
+    
+	**git push**
