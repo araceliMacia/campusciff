@@ -2,7 +2,7 @@
 # Practica 1 :  
 *Por: Araceli Macía Barrado*
 
-![UrlCorta](campusciff/images/CreoRepositorio1.png)
+![UrlCorta](/images/CreoRepositorio1.png)
 
 ![urlLarga](
 https://github.com/araceliMacia/campusciff/blob/master/images/CreoRepositorio1.png)
