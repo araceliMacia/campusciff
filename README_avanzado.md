@@ -35,12 +35,14 @@
 
 # Merge directo
 1. Posicionarse en la rama master.
+
 	**git checkout master**
 1. Hacer un merge de la rama v0.2 en la rama master.
+
 	**git merge v0.2**
 
 Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero README al mismo tiempo que la practica, se ve tambien en el pantallazo los ficheros que voy subiendo al repositorio.
- 
+
 ![MergeRama.png.png](/images/MergeRama.png)
 
 
