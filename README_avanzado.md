@@ -85,15 +85,15 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
         fichero1.txt 
 
    Añado contenido al fichero:
-   
 
-      echo "ADIOS" >> fichero1.txt 
-      more fichero1.txt 
-          fichero1.txt 
-          ADIOS
+        echo "ADIOS" >> fichero1.txt 
+        more fichero1.txt 
+            fichero1.txt 
+            ADIOS
+
   Subo el fichero al repositorio local en la rama v0.2
 
-    git commit -a -m "mod fichero1"
+        git commit -a -m "mod fichero1"
 
 
 1. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
@@ -105,39 +105,46 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 
    Hacemos el merge: 
    
-     git merge v0.2
-     Auto-merging fichero1.txt
-     CONFLICT (content): Merge conflict in fichero1.txt
-     Automatic merge failed; fix conflicts and then commit the result.
+       git merge v0.2
+       Auto-merging fichero1.txt
+       CONFLICT (content): Merge conflict in fichero1.txt
+       Automatic merge failed; fix conflicts and then commit the result.
 
 
 #Listado de ramas
 1. Listar las ramas con merge y las ramas sin merge.
-  **git branch --merged**
-  * master
+  
+  Ramas con Merge
 
-  **git branch --no-merged**
-    v0.2
+        git branch --merged
+        * master
+
+  Ramas sin merge
+
+        git branch --no-merged**
+        v0.2
 
 #Arreglar conflicto
 1. Arreglar el conflicto anterior y hacer un commit.
 
-El merge ha fallado, en el fichero1 tenemos lo siguiente:
-fichero1.txt 
-<<<<<<< HEAD
-HOLA
-=======
-ADIOS
->>>>>>> v0.2
+  El merge ha fallado, en el fichero1 tenemos lo siguiente:
 
-Voy a quitar las lineas que me sobran y voy a hacer commit.
-Lo dejo asi:
-**cat fichero1.txt**
-fichero1.txt 
-HOLA
-ADIOS
+        fichero1.txt 
+        <<<<<<< HEAD
+        HOLA
+        =======
+        ADIOS
+        >>>>>>> v0.2
 
-git commit -a -m "fichero1 mod"
+  Voy a quitar las lineas que me sobran y voy a hacer commit.
+  Lo dejo asi:
+
+        cat fichero1.txt
+        fichero1.txt 
+        HOLA
+        ADIOS
+
+        git commit -a -m "fichero1 mod"
 
 
 
