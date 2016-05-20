@@ -146,5 +146,33 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 
         git commit -a -m "fichero1 mod"
 
+#Borrar rama
+  1. Crear un tag v0.2
+
+     En la siguiente imagen se puede ver como he generado la etiqueta v0.2 a todo lo que llevo hecho, y luego el estado del repositorio.
+
+     ![EtiquetarVersion](/images/EtiquetarVersion.png)
+
+  1. Borrar la rama v0.2
+
+      Para borrar la rama ejecuto el siguiente comando ( forzando el borrado)
+        git branch -D v0.2
+
+    Si la rama v0.2 se hubiese realizado el merge sin problemas, tambien podría haber utilizado:
+
+        git branch -D v0.2
+
+    Ahora al realizar
+
+#Listado de cambio
+  1. Listar los distintos commits con sus ramas y sus tags.
+
+    A continuacion muestro pantallazo:
+    lo que hago es ejecutar git log --oneline --decorate --graph --all, que esta incorporado
+    como un alias list, en el fichero de configuracion de git.
+
+   ![listadoRepositorio](/images/listadoRepositorio.png)
+
+
 
 
