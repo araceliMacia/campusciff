@@ -5,11 +5,11 @@
 1. Crear una rama v0.2.
   Para crear una rama realizo el siguiente comando
     
-      git branch v0.2
+        git branch v0.2
 
 1. Posiciona tu carpeta de trabajo en esta rama.
 
-    git checkout v0.2
+        git checkout v0.2
 
   A continuación muestro un pantallazo de como queda.
 
@@ -20,7 +20,7 @@
 
     Genero el fichero
 
-      echo "fichero2.txt" > fichero2.txt
+        echo "fichero2.txt" > fichero2.txt
 
     lo añado al area de staging y hago un commit.
 
@@ -29,9 +29,9 @@
 
 # Crear rama remota v0.2
 
-1. Subir los cambios al reposiorio remoto.
+1. Subir los cambios al repositorio remoto.
 
-    git push --set-upstream origin v0.2
+        git push --set-upstream origin v0.2
     
   Ahora desde la web, puedo ver que tengo las dos ramas.
 
@@ -48,11 +48,11 @@
 # Merge directo
 1. Posicionarse en la rama master.
 
-    git checkout master
+        git checkout master
     
 1. Hacer un merge de la rama v0.2 en la rama master.
 
-    git merge v0.2
+        git merge v0.2
 
 Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero README al mismo tiempo que la practica, se ve tambien en el pantallazo los ficheros que voy subiendo al repositorio.
 
@@ -103,12 +103,12 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
         Your branch is ahead of 'origin/master' by 2 commits.
           (use "git push" to publish your local commits)
 
-   Hacemos el merge: 
+    Hacemos el merge:    
    
-       git merge v0.2
-       Auto-merging fichero1.txt
-       CONFLICT (content): Merge conflict in fichero1.txt
-       Automatic merge failed; fix conflicts and then commit the result.
+        git merge v0.2
+        Auto-merging fichero1.txt
+        CONFLICT (content): Merge conflict in fichero1.txt
+        Automatic merge failed; fix conflicts and then commit the result.
 
 
 #Listado de ramas
