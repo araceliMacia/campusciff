@@ -264,7 +264,7 @@ De modo que en mi organización veo el repositorio que he creado, y los otros do
   ![CrearRama4](/images/CrearRama4.png)
 
   Subido la rama y los cambios al repositorio remoto.
-  ![CrearRama6](/images/CrearRama6..png)
+  ![CrearRama6](/images/CrearRama6.png)
 
   Ya veo los cambios en la web:
   ![CrearRama8](/images/CrearRama8.png)
@@ -273,7 +273,7 @@ De modo que en mi organización veo el repositorio que he creado, y los otros do
    ![CrearRama10](/images/CrearRama10.png)
    ![CrearRama13](/images/CrearRama13.png)
 
-   ** A continuación lo mismo, pero sobre el otro repositorio y haciendo los ejercicios en la web.
+   ** A continuación lo mismo, pero sobre el otro repositorio y haciendo los ejercicios en la web.**
 
     Genero la rama:
     ![CrearRamaFork2](/images/CrearRamaFork2.png)
@@ -289,6 +289,7 @@ De modo que en mi organización veo el repositorio que he creado, y los otros do
 
 #Gestionar Pull-requests
   1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
+  
     Me ha llegado una solicitud. A continuación muestro los pantallazos.
   ![AceptarPullRequest2](/images/AceptarPullRequest2.png)
   ![AceptarPullRequest](/images/AceptarPullRequest.png)
