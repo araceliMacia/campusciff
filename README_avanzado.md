@@ -162,16 +162,146 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 
         git branch -D v0.2
 
-    Ahora al realizar
 
 #Listado de cambio
   1. Listar los distintos commits con sus ramas y sus tags.
 
     A continuacion muestro pantallazo:
     lo que hago es ejecutar git log --oneline --decorate --graph --all, que esta incorporado
-    como un alias list, en el fichero de configuracion de git.
+    como un alias llamado list en el fichero de configuracion de git.
 
    ![listadoRepositorio](/images/listadoRepositorio.png)
+
+---
+# Crear una organización
+  1. Crear una organización llamada campusciff-araceliMacia
+    A continuación muestro los pantallazos de como he generado la organización.
+
+  ![CrearOrganizacion](/images/CrearOrganizacion.png)
+  ![CrearOrganizacion2](/images/CrearOrganizacion2.png)
+
+  Establezco los permisos por defecto para los permisos de la organización
+  ![CrearOrganizacion4](/images/CrearOrganizacion4.png)
+
+
+
+# Crear equipos
+1. Crear 2 equipos en la organización campusciff-tunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos.
+
+  Creo los dos equipos en la organizacion.
+  ![CrearEquipos](/images/CrearEquipos.png)
+  ![CrearEquipos2](/images/CrearEquipos2.png)
+  ![CrearEquipos3](/images/CrearEquipos3.png)
+
+  A continuación genero un repositorio dentro de la organización.
+  ![CrearRepoorganizacion2](/images/CrearRepoorganizacion2.png)
+
+  Ahora doy permisos sobre el repositorio, dando mas permisos para el equipo administrador que para los colaboradores.
+  ![PermisosEquipos](/images/PermisosEquipos.png)
+  ![PermisosEquipos2](/images/PermisosEquipos2.png)
+
+1. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo administradores.
+
+  ![AnadirMiembros](/images/AnadirMiembros.png)
+  ![AnadirMiembros2](/images/AnadirMiembros2.png)
+   Aqui se puede ver las invitaciones para el grupo administrador.
+
+  ![AnadirMiembros3](/images/AnadirMiembros3.png)
+
+
+1. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo colaboradores.
+  
+  Aquí se puede ver las invitaciones pendientes de aceptar para el equipo de colaboradores.
+
+  ![AnadirMiembros6](/images/AnadirMiembros6.png)
+  
+
+#Crear un index.html
+
+1. Crear un index.html que se pueda ver como página web en la organización.
+
+  En la opción de Settings de la organización, vamos a la parte de GitHub Pages para generar el indice.
+ ![CrearIndex2](/images/CrearIndex2.png)
+  
+  Lo genero con la opción automatica.
+
+ ![CrearIndex3](/images/CrearIndex3.png)
+ ![CrearIndex6](/images/CrearIndex6.png)
+
+ La Url de acceso a mi organización: http://campusciff-aracelimacia.github.io/PracticaAvanzada/
+
+
+#Crear Pull-requests
+1. Hacer 2 forks de 2 repositorios campusciff-tunombredeusuariodegithub.github.io de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
+  Sobre el repositorio de dos de mis compañeros, pulso sobre el boton de Folk para hacer una copia del repositorio en uno de los mios.
+
+
+![Fork1](/images/Fork1.png)
+![Fork2](/images/Fork2.png)
+![Fork3](/images/Fork3.png)
+
+De modo que en mi organización veo el repositorio que he creado, y los otros dos que he copiado.
+![Fork6](/images/Fork6.png)
+
+
+2. Crearos una rama en cada fork.
+3. En cada rama modificar el fichero index.html añadiendo vuestro nombre.
+4. Con cada rama hacer un pull-request.
+
+
+  En cada uno de los repositorios he generado la rama y el fichero de formas distintas. Con uno lo he hecho bajandome el repositorio en local y generando el fichero desde mi terminal, para subir las modificaciones con comandos GIT, y en el otro lo he hecho todo con la web.
+
+  **A continuacion los pantallazos de los ejercicios realizados en local, y subiendolo luego con comandos git.**
+
+  Clon de repositorio:
+  ![CrearRama2](/images/CrearRama2.png)
+
+  He creado una rama:
+  ![CrearRama3](/images/CrearRama3.png)
+
+  Modificado el fichero Readme, ya que el compañero aun no tiene fichero index.
+
+  ![CrearRama4](/images/CrearRama4.png)
+
+  Subido la rama y los cambios al repositorio remoto.
+  ![CrearRama6](/images/CrearRama6..png)
+
+  Ya veo los cambios en la web:
+  ![CrearRama8](/images/CrearRama8.png)
+
+  Hago el pullrequest en este repositorio.
+   ![CrearRama10](/images/CrearRama10.png)
+   ![CrearRama13](/images/CrearRama13.png)
+
+   ** A continuación lo mismo, pero sobre el otro repositorio y haciendo los ejercicios en la web.
+
+    Genero la rama:
+    ![CrearRamaFork2](/images/CrearRamaFork2.png)
+
+    Genero un fichero nuevo, para no tocar el Fichero Readme que veo que lo esta haciendo el compañero:
+    ![CrearRamaFork3](/images/CrearRamaFork3.png)
+
+    Hago el pullrequest:  
+    ![CrearRamaFork5](/images/CrearRamaFork5.png)
+
+    Estos son los pullrequest que tengo pendientes de aceptación:
+    ![CrearRamaFork6](/images/CrearRamaFork6.png)
+
+#Gestionar Pull-requests
+  1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
+    Me ha llegado una solicitud. A continuación muestro los pantallazos.
+  ![AceptarPullRequest2](/images/AceptarPullRequest2.png)
+  ![AceptarPullRequest](/images/AceptarPullRequest.png)
+   Lo confirmo:
+
+  ![AceptarPullRequest3](/images/AceptarPullRequest3.png)
+
+    Ya ven el mi repositorio el fichero de Juan
+  ![AceptarPullRequest4](/images/AceptarPullRequest4.png)
+
+
+
+
 
 
 
