@@ -160,7 +160,7 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 
     Si la rama v0.2 se hubiese realizado el merge sin problemas, tambien podría haber utilizado:
 
-        git branch -D v0.2
+        git branch -d v0.2
 
 
 #Listado de cambio
@@ -175,6 +175,7 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 ---
 # Crear una organización
   1. Crear una organización llamada campusciff-araceliMacia
+
     A continuación muestro los pantallazos de como he generado la organización.
 
   ![CrearOrganizacion](/images/CrearOrganizacion.png)
@@ -233,6 +234,7 @@ Ha ido bien, a continuación muestro pantallazo. Al estar realizando el fichero 
 
 #Crear Pull-requests
 1. Hacer 2 forks de 2 repositorios campusciff-tunombredeusuariodegithub.github.io de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
+  
   Sobre el repositorio de dos de mis compañeros, pulso sobre el boton de Folk para hacer una copia del repositorio en uno de los mios.
 
 
@@ -273,7 +275,7 @@ De modo que en mi organización veo el repositorio que he creado, y los otros do
    ![CrearRama10](/images/CrearRama10.png)
    ![CrearRama13](/images/CrearRama13.png)
 
-   ** A continuación lo mismo, pero sobre el otro repositorio y haciendo los ejercicios en la web.**
+   **A continuación lo mismo, pero sobre el otro repositorio y haciendo los ejercicios en la web.**
 
     Genero la rama:
     ![CrearRamaFork2](/images/CrearRamaFork2.png)
@@ -297,7 +299,7 @@ De modo que en mi organización veo el repositorio que he creado, y los otros do
 
   ![AceptarPullRequest3](/images/AceptarPullRequest3.png)
 
-    Ya ven el mi repositorio el fichero de Juan
+    Ya veo en mi repositorio el fichero de Juan
   ![AceptarPullRequest4](/images/AceptarPullRequest4.png)
 
 
